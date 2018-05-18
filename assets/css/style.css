@@ -1,0 +1,61 @@
+html            {height: 100%;}
+
+body            {display: block; height: 100%;
+                background-image: url("../../assets/images/backdrop.png");}
+
+header          {width: 100%;
+                display: block;
+                background-color:#ffffff;
+                border-bottom: 3px solid #cccccc; 
+                padding: 20px 20px 0px 20px;
+                margin-bottom: 50px}
+
+#squeeze        {width: 1000px; margin: auto;}
+
+#navtext        { padding: 30px; color: gray}
+            
+
+#content        {width: 956px; margin-top: 40px;
+                background-color: white; 
+                display: block; clear: both;}
+
+h1 
+                {font-size: 36px; color:white; font-weight: bolder;
+                background-color: #4aaaa5; 
+                float: left; padding: 20px 40px 20px 40px; margin-left: 20px;}
+
+
+#wrapper        {min-height: 100%; margin-bottom: -45px;}
+
+#push           {height: 45px;}
+
+#portfolio      {width: 956px; margin: auto; color: #777777; background-color: #ffffff;
+                display: block; font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                line-height: 22px; border: 2px solid #dddddd; clear: both; padding: 20px;}
+
+#contacts       {width: 956px; margin: auto; color: #777777; background-color: #ffffff;
+                display: block; font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                line-height: 22px; border: 2px solid #dddddd; clear: both; padding: 20px;}
+
+h2              {font-size: 32px; float: left; font-weight: bolder;
+                padding: 20px; width: 920px; clear: both;
+                color: teal;} 
+
+article         {width: 956px; margin: auto; color: #777777; background-color: #ffffff;
+                display: block; font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                line-height: 28px; border: 2px solid #dddddd; clear: both; padding: 20px;}
+
+
+
+.nav            {float: right; font-size: 16px; padding: 0px 20px 0px 20px; color:grey;}
+
+a:hover,      
+a:link, 
+a:active,
+a:visited       {text-decoration: none; color: grey}
+
+
+
+
+footer          {display: block; background-color: dimgray; border-top: #4aaaa5 solid 5px;
+                text-align: center; color: white; padding: 20px 20px 10px 20px; font-size: 10px;}
