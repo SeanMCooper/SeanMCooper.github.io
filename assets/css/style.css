@@ -54,6 +54,19 @@ a:link,
 a:active,
 a:visited       {text-decoration: none; color: grey}
 
+.list {
+    margin: 14px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.list img {
+    width: 100%;
+    height: auto;
+}
+
+
 
 
 
