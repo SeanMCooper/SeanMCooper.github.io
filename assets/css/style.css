@@ -1,7 +1,9 @@
 html            {height: 100%;}
 
-body            {display: block; height: 100%;
-                background-image: url("../../assets/images/backdrop.png");}
+body            {
+    display: block; height: 100%;
+    background-image: url("../../assets/images/backdrop.png");
+            }
 
 header          {width: 100%;
                 display: block;
@@ -31,7 +33,7 @@ h1
 
 #portfolio      {width: 956px; margin: auto; color: #777777; background-color: #ffffff;
                 display: block; font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-                line-height: 22px; border: 2px solid #dddddd; clear: both; padding: 20px;}
+                line-height: 22px; border: 2px solid #dddddd; clear: both; padding: 0px 20px 20px 0px;}
 
 #contacts       {width: 956px; margin: auto; color: #777777; background-color: #ffffff;
                 display: block; font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -54,16 +56,44 @@ a:link,
 a:active,
 a:visited       {text-decoration: none; color: grey}
 
-.list {
-    margin: 14px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+#imgs {
+    padding: 0px 20px 0px 20px; float: left; 
+    width: 280; height: 225;
 }
+
+#imgs2 {
+    padding: 0px 20px 0px 20px; float: left; 
+    width: 280; height: 225;
+}
+
+#imgs3 {
+    padding: 0px 20px 0px 20px; float: left; 
+    width: 280; height: 225;
+}
+
+#imgs4 {
+    padding: 0px 20px 0px 20px; float: left; 
+    width: 280; height: 225;
+}
+
+#imgs5 {
+    padding: 0px 20px 0px 20px; float: left; 
+    width: 280; height: 225;
+}
+
+
+
+#textblock {
+    display: block; width: 280px; height: 60px; background-color: #4aaaa5; 
+    color: white; text-align: center; line-height: 50px; font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    z-index: 1; top: 190px; position: relative;
+}
+
 
 .list img {
     width: 100%;
     height: auto;
+    z-index: 1;
 }
 
 
